@@ -35,19 +35,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+3" />
+                android:text="+3"
+                android:onClick="add3ToAScore"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+2" />
+                android:text="+2"
+                android:onClick="add2ToAScore"
+                 />
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+1" />
+                android:text="free throw"
+                android:onClick="add1ToAScore"/>
         </LinearLayout>
 
         <LinearLayout
@@ -74,19 +78,22 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+3" />
+                android:text="+3"
+                android:onClick="add3ToBScore"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+2" />
+                android:text="+2"
+                android:onClick="add2ToBScore"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
-                android:text="+1" />
+                android:text="+1"
+                android:onClick="add1ToBScore"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -95,5 +102,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/reset" />
+        android:text="@string/reset"
+        android:onClick="resetScore"/>
 </RelativeLayout>
